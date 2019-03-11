@@ -1,0 +1,21 @@
+Napisati na jeziku Java sledeći paket tipova:
+    Apstraktan teret ima jedinstven, automatski generisan celobrojan identifikator i zadatu specifičnu
+težinu. Moze da se dohvati jednoslovna oznaka vrste, da se odredi zapremina i tezina i da se sastavi
+tekstualan opis koji sadrži oznaku vrste i identifikator.
+    Sanduk je teret oblika kvadra zadatih dužina ivica. Oznaka vrste je S.
+    Bure je teret oblika valjka zadatog poluprečnika osnove i visine. Oznaka vrste je B.
+    Generički niz sadrži stvati nekog tipa. Stvara se prazan zadatog kapaciteta posle čega se stvari
+dodaju pojedinačno(greška je ako se niz prepuni). Može da se dohvati broj stvari u nizu i da se pristupi
+stvari sa zadatim rednim brojem(greška je ako je indeks izvan opsega).
+    Apstraktno vozilo ima zadatu sopstvenu težinu. Može da se odredi ukupna težina i vučna sila vozila i da
+se sastavi tekstualni opis vozila. Vučna sila predstavlja težinu tereta koji vozilo može da povuče.
+    Lokomotiva je vozilo zadate vučne sile. Tekstualni opsi je oblika L(ukTežina/vučnaSila).
+    Vagon je vozilo koje sadrži niz tereta. Stvara se prazan zadatog kapaciteta posle čega se tereti dodaju 
+pojedinačno. Vučna sila vagona je 0. Tekstualni opis je oblika V(ukTežina/teret,...,teret).
+    Voz se sastoji od niza vozila. Stvara se prazan zadatog kapaciteta posle čega se vozila dodaju pojedinačno
+(greška je ako se voz preoptereti, tj. ako ukupna težina svih vozila i tereta premaši ukupnu vučnu silu vozila
+u vozu).Može da se dohvati broj vozila u vozu, da se proveri da li bi se voz preopteretio priključivanjem 
+zadatog vozila i da se sastavi tekstualni opis voza koji sadrži tekstualne opise sadržanih vozila(jedno
+vozilo po redu). 
+Napisati na jeziku Java program koji napravi voz s jednom lokomotivom i dva vagona sa po dva tereta.
+Koristiti konstantne parametre(ne treba ništa učitavati sa glavnog ulaza).
